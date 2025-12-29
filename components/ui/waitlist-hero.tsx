@@ -331,7 +331,7 @@ const createParticle = (): Particle => ({
           </h1>
 
           <p className="text-sm md:text-lg font-medium text-center text-black/50  ">
-           سرعت بالاتر و مانیتوریگ لحظه ای خدمات عبوری از اپراتوری  هوشمند سلامت ناجی 
+           سرعت بالاتر و مانیتوریگ لحظه ای خدمات عبوری از سکوی هوشمند سلامت ناجی 
           </p>
 
           {/* Form / Success Container */}
