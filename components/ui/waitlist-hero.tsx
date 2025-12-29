@@ -320,15 +320,17 @@ const createParticle = (): Particle => ({
 
         {/* Content Container */}
         <div className="relative z-20 w-full h-full flex flex-col items-center justify-end pb-24 gap-6">
-          <div className="w-40 h-40 rotate-90 rounded-2xl  overflow-hidden mb-2 ring-1 ring-white/10">
-<Image src="/logohub.png" width={1000} height={1000} alt="salm" />
+          <div className="w-50 h-50  rounded-2xl  overflow-hidden mb-2 ring-1 ring-white/10">
+<Image src="/logohubz.png" width={1000} height={1000} alt="salm" />
           </div>
 
-          <h1 className="text-5xl md:text-6xl text-black font-bold text-center tracking-tight">
-            اپراتور سلامت ناجی
+          <h1 className="text-3xl md:text-6xl text-black font-bold text-center tracking-tight relative">
+            سکوی ملی سلامت
+                       <Image src="/najilo.png" alt="sals" width={100} height={100} className=" absolute -top-5 md:-left-15 -left-10 md:w-15 md:h-20 w-10 h-15"  />
+
           </h1>
 
-          <p className="text-sm md:text-lg font-medium text-center text-black/50">
+          <p className="text-sm md:text-lg font-medium text-center text-black/50  ">
            سرعت بالاتر و مانیتوریگ لحظه ای خدمات عبوری از اپراتوری  هوشمند سلامت ناجی 
           </p>
 
