@@ -1,5 +1,6 @@
 "use client"
 
+import { Phone, PhoneCallIcon } from "lucide-react"
 import Image from "next/image"
 import { useState, useRef } from "react"
 type Particle = {
@@ -397,7 +398,7 @@ const createParticle = (): Particle => ({
   onTouchEnd={onDragEnd}
 >
   {/* Label */}
-  <div className="absolute left-10 top-1/2 -translate-y-1/2 text-[15px] text-white/60 pointer-events-none">
+  <div className="absolute left-10 top-1/2 -translate-y-1/2 text-[12px] sm:text-[15px] text-white/60 pointer-events-none">
     احراز هویت و نسخه نویسی
   </div>
 
@@ -415,6 +416,11 @@ const createParticle = (): Particle => ({
     ورود به پنل
   </div>
 </div>
+<a href="tel:1523" className=" text-center  mt-6 text-lg md:text-xl flex justify-center opacity-70">
+  <span className="mt-2 font-semibold">1523</span>
+  <div className="bg-[#0079da] p-2 mr-2 text-white rounded-full"><PhoneCallIcon /></div>
+  
+  </a>
 
           </div>
         </div>
