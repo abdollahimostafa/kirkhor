@@ -300,7 +300,7 @@ const createParticle = (): Particle => ({
                 src="/ccnn.png"
                 alt="App Icon"
                 width={1000} height={1000}
-                className="w-full h-full object-cover opacity-80"
+                className="w-full h-full object-cover opacity-80 blur-sm"
               />
             </div>
           </div>
