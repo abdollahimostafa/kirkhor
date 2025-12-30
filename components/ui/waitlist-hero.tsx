@@ -3,6 +3,7 @@
 import { Phone, PhoneCallIcon } from "lucide-react"
 import Image from "next/image"
 import { useState, useRef } from "react"
+import SupportButton from "./Sticker"
 type Particle = {
   x: number
   y: number
@@ -14,8 +15,6 @@ type Particle = {
 }
 
 export const WaitlistHero = () => {
-  const [email, setEmail] = useState("")
-  const [status, setStatus] = useState("idle") // 'idle' | 'loading' | 'success'
 
 const canvasRef = useRef<HTMLCanvasElement | null>(null)
 const sliderRef = useRef<HTMLDivElement | null>(null)
@@ -334,7 +333,8 @@ const createParticle = (): Particle => ({
           <p className="text-sm md:text-lg font-medium text-center text-black/50  ">
            سرعت بالاتر و مانیتوریگ لحظه ای خدمات عبوری از سکوی هوشمند سلامت ناجی 
           </p>
-
+  <p className="text-xs md:text-lg -mt-5 font-medium text-center text-black/30 px-8  ">
+هاب یکپارچه هوشمند: شرکت های دارویی، تجهیزات پزشکی، پلتفرم ها و ...          </p>
           {/* Form / Success Container */}
           <div className="w-full max-w-md px-4 mt-4 h-[60px] relative perspective-1000">
             {/* Confetti Canvas - overlays everything but ignores clicks */}
@@ -424,6 +424,8 @@ const createParticle = (): Particle => ({
 
           </div>
         </div>
+              <SupportButton/>
+
       </div>
     </div>
   )
