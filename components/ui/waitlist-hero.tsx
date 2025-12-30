@@ -15,6 +15,8 @@ type Particle = {
 }
 
 export const WaitlistHero = () => {
+  const [email, setEmail] = useState("")
+  const [status, setStatus] = useState("idle") // 'idle' | 'loading' | 'success'
 
 const canvasRef = useRef<HTMLCanvasElement | null>(null)
 const sliderRef = useRef<HTMLDivElement | null>(null)
