@@ -26,7 +26,7 @@ const yekanBakh = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "اپراتوری سلامت ناجی",
+  title: "سکوی ملی سلامت ناجی",
   description: "درگاه هوشمند سلامت",
 };
 
